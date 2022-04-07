@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let arr = [3,31,2,67,34,12,5,34,22,11];
+    let count = 0;
+    let  max = 0;
+    let index = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > max ) {
+             max = arr[i];
+             index = i;
+        }
+
+    }
+    document.write("<br>")
+    document.write(max)
+    document.write(index)
+</script>
+</body>
+</html>
